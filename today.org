@@ -1,0 +1,43 @@
+
+
+test messages from backend to DS layer
+- accept correct token
+- deny missing token
+- deny invalid token
+
+test messages to DS layer to backend
+- get proper token accepted
+- get missing token denied
+- get bad token denied
+
+If a token is denied, 
+- send a request to BE endpoint for new token
+- get new token
+- new token works
+
+Andrew, please send link to code that we tightened earlier
+- I'll retighten it
+
+Choose a better test client- might as well use 'LambdaSchool'
+
+Figure out how to store tokens on Heroku server
+- nice to have functionality to be able to do this on Heroku and locally
+what is the code to check the environment 
+(e.g., 
+if (os == Heroku):
+  foo(baz tam)
+else:
+  bar(boggle deb0)
+
+
+refactor PUT call to a separate fuction
+
+Get 1000 tweets from Lambda School
+store them so that Heroku can use them, and we can use them locally
+
+get the Basilisk embedding (keep track of latest tweet included so that we can ask for new tweets)
+
+store this locally and on Heroku
+
+
+document how to use local environment variables in Jupyter notebooks
